@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset=utf-8>
+<head>
+  <title>Healthier Canada</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="header">
+  <object type="image/svg+xml" data="flag.svg" class="flag">
+    <img src="flag.png" />
+  </object>
+</div>
+
+<div>
+
+</div>
+
+<div class="parties">
+  <a href="./../index.html" class="language">EN</a>
+  <strong>Cliquez <a class="download" href="flag.png" download="Healthier Canada">ici</a> pour télécharger la photo du drapeau, et la mettre comme photo de couverture sur les réseaux sociaux afin de supporter un Canada plus en santé durant les prochaines élections.</strong>
+  <br /><br />
+  Envoyez un lien d'un de vos réseaux sociaux avec la photo de couverture à <a href="mailto:a@healthiercanada.org?Subject=Photo%20de%20couverture" target="_top">a@healthiercanada.org</a> pour courir la chance de gagner une trousse de premier soins.
+  <br /><br />
+  Regardez un aperçu de la plateforme santée de chaque parti politique, et votez pour le parti politique que vous pensez a le plus de chance d'augmenter la durée de vie en bonne santé des canadiens.
+  <div class="party">
+    <h2><a href="http://www.conservateur.ca/" target="_blank">Parti conservateur</a></h2>
+    <button type="button" class="vote btn btn-default" onclick="show()">Vote</button>
+    <ul>
+      <li>Recherche contre le cancer du sein</li>
+      <li>Recherche sur les cellules souches</li>
+      <li>Recherche en imagerie médicale</li>
+      <li>Recherche en médecine personalisée</li>
+      <li>Recherche en épigénétique</li>
+      <li>Recherche sur un système de santé primaire basé sur la communauté</li>
+      <li>Recherche contre les inflammations dans les maladies chroniques</li>
+      <li>Améliorer les bases de données médicales</li>
+      <li>Instaurer des avantages pour inciter les médecins et les infirmiers à pratiquer dans les milieux ruraux et dans les régions éloignées</li>
+      <li>Financer la recherche de <em>Brain Canada</em></li>
+      <li>Mettre des défibrillateur et à former des individus pour tous les arena de hockey récréatif</li>
+    </ul>
+  </div>
+
+  <div class="party">
+    <h2><a href="http://www.greenparty.ca/fr" target="_blank">Parti Vert</a></h2>
+    <button type="button" class="vote btn btn-default" onclick="show()">Vote</button>
+    <ul>
+      <li>Éliminer le système de santé à deux vitesse</li>
+      <li>Améliorer notre système de soins de courte durée</li>
+      <li>Améliorer notre système de soins chronique</li>
+      <li>Réduire les coûts de l'assurance-médicaments</li>
+      <li>Résoudre la crise des isotopes médicaux</li>
+      <li>Améliorer la santé par une approche préventive</li>
+      <li>Promouvoir un mode de vie actif</li>
+      <li>Reconnaître les sensibilités environnementales en tant que problème de santé</li>
+      <li>Promouvoir une approche globale à la santé mentale</li>
+      <li>Réduire la toxicomanie</li>
+      <li>Prévenir la propagation du VIH/sida et mieux gérer ses impacts</li>
+      <li>Combattre le syndrome d'alcoolisation foetale</li>
+    </ul>
+  </div>
+
+  <div class="party">
+    <h2><a href="http://www.ndp.ca/" target="_blank">NPD</a></h2>
+    <button type="button" class="vote btn btn-default" onclick="show()">Vote</button>
+    <ul>
+      <li>Convoquer une réunion des premiers ministres sur les soins de santé dans les 60 jours</li>
+      <li>Élaborer une stratégie pour la santé du cerveau</li>
+      <li>Promouvoir la santé pour réduire l'obésité</li>
+      <li>Créer une politique alimentaire pour encourager une alimentation plus saine et un étiquetage plus claire de la nourriture</li>
+      <li>Instaurer des avantages pour inciter les médecins et les infirmiers à pratiquer dans les milieux ruraux et dans les régions éloignées</li>
+      <li>Travailler avec les provinces pour réduire le coût des médicaments d'ordonnance</li>
+    </ul>
+  </div>
+
+  <div class="party">
+    <h2><a href="https://www.liberal.ca/fr/" target="_blank">Parti Libéral</a></h2>
+    <button type="button" class="vote btn btn-default" onclick="show()">Vote</button>
+    <ul>
+      <li>S'engage à augmenter le financement des soins de santé de 6%</li>
+      <li>Promet d'investir 165 millions $ pour embaucher plus de médecins et d'infirmiers, rapatrier les travailleurs en santé à l'étranger, et améliorer les démarches nécessaires pour les médecins étrangers</li>
+      <li>Financer un modèle de promotion de la santé</li>
+      <li>Créer une initiative de nutrition à l'enfance afin d'assurer une alimentation saine dans les écoles</li>
+      <li>Créer une stratégie alimentaire canadienne pour encourager une alimentation saine</li>
+      <li>Maintenir un système de santé gouvernemental, financé par le publique</li>
+      <li>Financer une stratégie et des normes pour le soin des personnes âgées</li>
+      <li>Financer un programme d'assurance-médicaments</li>
+      <li>Financer une stratégie et des normes de lutte contre le diabète et l'obésité</li>
+      <li>Adresser et répondre aux besoins de santé des anciens combattants</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Vous pouvez proposer des modifications sur ce <a href="https://docs.google.com/document/d/1edQmueq6bPWzo28HthKiqR6-JKFWG07Jp3Nl7mtH4Gk/edit?usp=sharing">Google Doc</a> ou ce <a href="#">projet GitHub</a>.
+  </div>
+</div>
+
+<script src='../jquery-2.1.4.min.js'></script>
+<script src="../index.js"></script>
+
+</body>
+</html>
